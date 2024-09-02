@@ -146,6 +146,8 @@ a:hover {
   transform: none;
 }
 
+  
+
 /* SECTIONS */
 
 section {
@@ -419,6 +421,26 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
+
+#contact {
+  background-image: url('/assets/Data.jpg');
+  background-size: cover; /* This makes the background image cover the entire section */
+  background-position: center; /* This centers the image within the section */
+  background-repeat: no-repeat; /* Ensures the image doesn’t repeat */
+  padding: 100px 90px; /* Adjusts padding around your content */
+  color: #080808; /* Optional: Adjust text color for contrast */
+}
+
+.contact-info-upper-container {
+  background: rgba(136, 163, 102, 0.5); /* Optional: Add a semi-transparent background for better readability */
+  padding: 60px;
+  border-radius: 30px;
+}
+
+.contact-info-container p, .contact-info-container a {
+  color: #060606; /* Adjust the text color if needed */
+}
+
 
 /* FOOTER SECTION */
 
